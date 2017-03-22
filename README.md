@@ -1,4 +1,4 @@
-<H1>MFCSQLite3Demo</H>
+<H1>MFCSQLite3Demo</H1>
 
 В данный момент реализовано:<br>
 подключение к БД Chinook.db<br>
