@@ -1,6 +1,6 @@
 <H1>MFCSQLite3Demo</H1>
 
-Example1.zip
+Example1.zip<br>
 В данный момент реализовано:<br>
 подключение к БД Chinook.db<br>
 просмотр данных в окне представления с прокруткой<br>
