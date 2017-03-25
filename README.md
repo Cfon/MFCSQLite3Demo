@@ -1,4 +1,4 @@
-<H1>MFCSQLite3Demo</H1>
+b><H1>MFCSQLite3Demo</H1>
 
 Example1.zip<br>
 В данный момент реализовано:<br>
@@ -10,7 +10,7 @@ Example1.zip<br>
 пс. база Chinook.db, файлы SQLite3 и обертка под MFC уже есть в архиве Example1.zip
 проект создавался с испльзованием среды разработки Visual Studio 2012-2015.<br>
 
-что такое Chinook? это база данных некого цифрового медиа хранилища<br>
+что такое <b>Chinook</? это база данных некого цифрового медиа хранилища<br>
 см по ссылкам:<br>
 https://chinookdatabase.codeplex.com/<br>
 http://www.sqlitetutorial.net/sqlite-sample-database/<br>
