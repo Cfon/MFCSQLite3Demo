@@ -16,8 +16,7 @@ https://chinookdatabase.codeplex.com/<br>
 http://www.sqlitetutorial.net/sqlite-sample-database/<br>
 https://blog.xojo.com/2016/04/13/the-chinook-sample-database/<br>
 
-ссылка на саму обертку SQLite3 под MFC<br>
-(автор midnightEngineer: https://www.codeproject.com/script/Membership/View.aspx?mid=134193):<br>
+ссылка на саму обертку SQLite3 под MFC (автор <b>midnightEngineer</b>):<br>
 https://www.codeproject.com/Articles/10060/SQLite-MFC-Wrapper<br>
 
 ----------------------------------------------------------------------------
