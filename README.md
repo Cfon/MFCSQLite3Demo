@@ -11,10 +11,10 @@ Example1.zip<br>
 проект создавался с испльзованием среды разработки Visual Studio 2012-2015.<br>
 
 что такое Chinook? это база данных некого цифрового медиа хранилища<br>
-см по ссылкам:
-https://chinookdatabase.codeplex.com/
-http://www.sqlitetutorial.net/sqlite-sample-database/
-https://blog.xojo.com/2016/04/13/the-chinook-sample-database/
+см по ссылкам:<br>
+https://chinookdatabase.codeplex.com/<br>
+http://www.sqlitetutorial.net/sqlite-sample-database/<br>
+https://blog.xojo.com/2016/04/13/the-chinook-sample-database/<br>
 
 ----------------------------------------------------------------------------
 update1 (Example1.1.zip):<br>
