@@ -16,6 +16,10 @@ https://chinookdatabase.codeplex.com/<br>
 http://www.sqlitetutorial.net/sqlite-sample-database/<br>
 https://blog.xojo.com/2016/04/13/the-chinook-sample-database/<br>
 
+ссылка на саму обертку SQLite3 под MFC<br>
+(автор midnightEngineer: https://www.codeproject.com/script/Membership/View.aspx?mid=134193):<br>
+https://www.codeproject.com/Articles/10060/SQLite-MFC-Wrapper<br>
+
 ----------------------------------------------------------------------------
 update1 (Example1.1.zip) реализовано:<br>
 страничный просмотр данных, юзал не сильно мудреный сиквел:<br>
