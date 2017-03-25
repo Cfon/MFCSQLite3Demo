@@ -1,6 +1,6 @@
 <H1>MFCSQLite3Demo</H1>
 
-Example1.zip<br>
+<b>Example1.zip</b><br>
 В данный момент реализовано:<br>
 подключение к БД Chinook.db;<br>
 просмотр данных в окне представления с прокруткой;<br>
@@ -20,7 +20,7 @@ https://blog.xojo.com/2016/04/13/the-chinook-sample-database/<br>
 https://www.codeproject.com/Articles/10060/SQLite-MFC-Wrapper<br>
 
 ----------------------------------------------------------------------------
-update1 (Example1.1.zip) реализовано:<br>
+update1 (<b>Example1.1.zip</b>) реализовано:<br>
 страничный просмотр данных, юзал не сильно мудреный сиквел:<br>
 SELECT * FROM table LIMIT 50 OFFSET n;<br>
 навигация при помощи меню, кнопок на тулбаре, а также кнопок на вьюшке под таблицей с выборкой данных.<br>
