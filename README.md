@@ -17,7 +17,7 @@ http://www.sqlitetutorial.net/sqlite-sample-database/<br>
 https://blog.xojo.com/2016/04/13/the-chinook-sample-database/<br>
 
 ----------------------------------------------------------------------------
-update1 (Example1.1.zip):<br>
+update1 (Example1.1.zip) реализовано:<br>
 страничный просмотр данных, юзал не сильно мудреный сиквел:<br>
 SELECT * FROM table LIMIT 50 OFFSET n;<br>
 навигация при помощи меню, кнопок на тулбаре, а также кнопок на вьюшке под таблицей с выборкой данных.<br>
