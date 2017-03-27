@@ -42,4 +42,4 @@ SELECT * FROM table ORDER BY field LIMIT 50 OFFSET n<br>
 
 <p><i><b>обнаружен косяк!</b> замедление работы при сортировке больших данных, видимо запрос на получение всех данных даже с учетом лимита не эффективен и данные всеравно получаются все в память! 
 буду пробовать решить через добавление ограничения запроса WHERE:</i><br>
-SELECT * FROM table WHERE field = 'value' LIMIT 50 OFFSET n;</p>
+SELECT * FROM table WHERE field = 'value' ORDER BY field LIMIT 50 OFFSET n;</p>
