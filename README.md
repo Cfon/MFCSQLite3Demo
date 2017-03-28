@@ -13,7 +13,7 @@
 пс. база Chinook.db, файлы SQLite3 и обертка под MFC уже есть в архиве Example1.zip
 проект создавался с испльзованием среды разработки Visual Studio 2012-2015.<br>
 
-что такое <b>Chinook</b>? это база данных некого цифрового медиа хранилища<br>
+что такое <b>Chinook</b>? это база данных некого цифрового медиа хранилища 
 см по ссылкам:<br>
 https://chinookdatabase.codeplex.com/<br>
 http://www.sqlitetutorial.net/sqlite-sample-database/<br>
