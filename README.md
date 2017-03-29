@@ -60,7 +60,7 @@ update4 (<b>Example2.1.zip</b>):
 <li>убраны магические числа в полях;</li>
 <li>исправлена сортировка в связи с новым форматом запросов.</li>
 </ul>
-для этого юзал 11 запросов SELECT с LEFT JOIN вида:
+<p>для этого юзал 11 запросов SELECT с LEFT JOIN вида:<br>
 SELECT al.albumId, al.title, ar.name FROM albums al
 		LEFT JOIN artists ar ON al.artistid = ar.artistid
-		ORDER BY %d ASC LIMIT %d OFFSET %d
+		ORDER BY %d ASC LIMIT %d OFFSET %d</p>
