@@ -64,3 +64,12 @@ update4 (<b>Example2.1.zip</b>):
 SELECT al.albumId, al.title, ar.name FROM albums al
 		LEFT JOIN artists ar ON al.artistid = ar.artistid
 		ORDER BY %d ASC LIMIT %d OFFSET %d</p>
+
+----------------------------------------------------------------------------
+update5 (<b>Example2.2.zip</b>):
+<ul>
+<li>реализовано отслеживание положения мыши для выбора элемента выводимых данных из таблицы;</li>
+</ul>
+<p>пока все! :D <br>
+данный подход будет еще подвержен рефакторингу;<br>
+для его реализации юзался революционый поход основанный на интуиции :D</p>
