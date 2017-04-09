@@ -52,17 +52,18 @@ update3 (<b>Example2.zip</b>):
 </ul>
 <p><b>причина</b>: медленная отрисовка данных. вывод данных непосредствено из запроса, что приводило к зависанию при большом числе записей в таблице.<br> 
 <b>решение</b>: вывод данных во вьюшку не напрямую из запроса, а предварительно загружаясь в кэш.</p>
-
 ----------------------------------------------------------------------------
 update4 (<b>Example2.1.zip</b>):
 <ul>
 <li>упорядочены поля;</li>
 <li>убраны магические числа в полях;</li>
 <li>исправлена сортировка в связи с новым форматом запросов.</li>
+<li>удалены из меню Tables таблицы playlist_track и invoice_items, которые организуют множественную связь между таблицами playlists - tracks и invoices - tracks </li>
 </ul>
 <p>для этого юзал 11 запросов SELECT с LEFT JOIN вида:<br>
 SELECT al.albumId, al.title, ar.name FROM albums al
-		LEFT JOIN artists ar ON al.artistid = ar.artistid
+
+LEFT JOIN artists ar ON al.artistid = ar.artistid
 		ORDER BY %d ASC LIMIT %d OFFSET %d</p>
 
 ----------------------------------------------------------------------------
