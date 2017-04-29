@@ -64,7 +64,6 @@ update4 (<b>Example2.1.zip</b>):
 </ul>
 <p>для этого юзал 11 запросов SELECT с LEFT JOIN вида:<br>
 SELECT al.albumId, al.title, ar.name FROM albums al
-
 LEFT JOIN artists ar ON al.artistid = ar.artistid
 		ORDER BY %d ASC LIMIT %d OFFSET %d</p>
 
@@ -139,3 +138,6 @@ update 12 (<b>Example 2.9.zip</b>) добавлено:
 <b>Gallery1.1.zip</b><br>
 <b>Gallery1.2.zip</b><br>
 В качесте разминки добавил небольшое демо <b>Gallery</b> в нем есть пример программирования SQL INSERT, UPDATE, DELETE, CREATE TABLE, а также работа с изображениями. Пример еще не закончен, надо будет добавить вывод изображения в отдельное окно по клику.
+
+при кодировании этого примера обнаружил баг в коде обертки от мистера midnightEngineer
+ошибка проявлялась при передаче юникодных строк в функцию Bind класса DbSQLite, баг убрал.
